@@ -6,7 +6,7 @@ trigger:
 - main
 
 # TODO: Replace the agent pool name
-pool: myAgentPool
+pool: Azure-project-agent
 
 variables:
   # TODO: Replace the service connection name as used in the DevOps project settings
@@ -16,7 +16,7 @@ variables:
   webAppName: 'meezar-azure-project'
 
   # Environment name
-  environmentName: 'flask-ml-service'
+  environmentName: 'Azure-project'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
@@ -26,7 +26,7 @@ stages:
   displayName: Build stage
   jobs:
   - job: BuildJob
-    pool: myAgentPool
+    pool: Azure-project-agent
     steps:    
     - script: |
         python3.7 -m pip install --upgrade pip
