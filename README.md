@@ -1,5 +1,5 @@
 # Overview
-
+[![Python application test with Github Actions](https://github.com/Meezar-Alali/Azure-project/actions/workflows/main.yml/badge.svg)](https://github.com/Meezar-Alali/Azure-project/actions/workflows/main.yml)
 <TODO: complete this with an overview of your project>
 
 ## Project Plan
